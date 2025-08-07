@@ -1,0 +1,54 @@
+1. SOLID principles — Xương sống của code sạch, dễ mở rộng, bảo trì
+
+
+S: Mỗi class làm 1 việc rõ ràng → code dễ đọc, dễ fix.
+
+O: Mở rộng chức năng mà không đụng code cũ → tránh bug, dễ thêm tính năng.
+
+L: Thay thế class cha bằng con thoải mái → code đa hình chuẩn.
+
+I: Không ép class phải làm gì nó không cần → code linh hoạt.
+
+D: Phụ thuộc abstraction → giảm coupling, dễ test.
+
+--------------------------------------------------------------------
+
+2. Object Pooling — cứu tinh hiệu năng
+
+
+
+Tránh Instantiate + Destroy liên tục, tiết kiệm CPU + RAM.
+
+Giúp game chạy mượt khi có nhiều đạn, enemy, hiệu ứng.
+
+Có thể dùng asset free hoặc tự code, tao cũng có thể share code mẫu.
+
+--------------------------------------------------------------------
+
+3. DOTween — UI chuyên nghiệp, mượt mà
+
+
+
+Giúp thanh máu, đạn, hiệu ứng UI chuyển động mềm mại, đẹp mắt.
+
+Dễ học, dễ tích hợp, tăng trải nghiệm người chơi.
+
+--------------------------------------------------------------------
+
+4. Lưu dữ liệu — giữ tiến độ người chơi
+
+
+
+PlayerPrefs cho dữ liệu đơn giản như điểm, level, unlock súng...
+
+JSON serialization cho dữ liệu phức tạp, lưu file ngoài → tái sử dụng, backup.
+
+Quan trọng cho game có nhiều level hoặc hệ thống unlock.
+
+Nói chung là:
+
+Nắm được 4 cái này mày làm game có chất lượng, chuyên nghiệp hơn hẳn.
+
+Có thể tự tin xin intern, vì mấy cái này là kiến thức nền tảng mọi studio đều cần.
+
+Mày cứ luyện code theo SOLID, tích hợp object pooling, UI mượt với DOTween, và lưu dữ liệu chắc chắn là một bước tiến lớn rồi.
